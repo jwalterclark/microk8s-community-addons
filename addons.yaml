@@ -51,6 +51,7 @@ microk8s-addons:
       check_status: "pod/cilium"
       supported_architectures:
         - amd64
+        - arm64
 
     - name: "multus"
       description: "Multus CNI enables attaching multiple network interfaces to pods"
